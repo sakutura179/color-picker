@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/reactjs-tiktok-phake/static/css/main.073c9b0a.css",
+    "main.js": "/reactjs-tiktok-phake/static/js/main.b891a373.js",
+    "static/js/787.3af07ce2.chunk.js": "/reactjs-tiktok-phake/static/js/787.3af07ce2.chunk.js",
+    "static/media/logo.svg": "/reactjs-tiktok-phake/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/reactjs-tiktok-phake/index.html",
+    "main.073c9b0a.css.map": "/reactjs-tiktok-phake/static/css/main.073c9b0a.css.map",
+    "main.b891a373.js.map": "/reactjs-tiktok-phake/static/js/main.b891a373.js.map",
+    "787.3af07ce2.chunk.js.map": "/reactjs-tiktok-phake/static/js/787.3af07ce2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.b891a373.js"
+  ]
+}
