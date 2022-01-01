@@ -1,0 +1,30 @@
+.resultContainer {
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #333;
+    border-radius: 10px;
+    position: relative;
+}
+
+.resultContainer .title {
+    padding: 10px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+}
+
+.resultContainer .title button {
+    background-color:#007bff;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    color: white;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+
+.resultContainer .demo {
+    border: 1px solid red;
+    padding: 10px;
+}

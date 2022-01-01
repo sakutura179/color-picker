@@ -1,13 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'boxicons';
+
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { ColorProvider } from './store';
+import GlobalStyle from './Components/GlobalStyle';
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+	<React.StrictMode>
+		<ColorProvider>
+			<GlobalStyle>
+				<App />
+			</GlobalStyle>
+		</ColorProvider>
+	</React.StrictMode>,
   document.getElementById('root')
 );
 

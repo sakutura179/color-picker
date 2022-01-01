@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import ColorPicker from "./Components/ColorPicker";
+import Result from "./Components/Result";
+import SizePicker from "./Components/SizePicker";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="App">
+			<h1>Color and Size Picker</h1>
+			<div className="container">
+				<ColorPicker/>
+				<SizePicker />
+			</div>
+				<Result />
+		</div>
+	);
 }
 
 export default App;

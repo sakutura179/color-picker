@@ -1,0 +1,37 @@
+.sizePicker {
+    width: 45%;
+    border: 1px solid #333;
+    border-radius: 10px;
+}
+
+.sizePickerTitle {
+    width: 100%;
+    border-bottom: 1px solid #333;
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.sizePickerContent {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.btn {
+    background-color:#28a745;
+    border: 1px solid #28a745;
+    border-radius: 4px;
+    color: white;
+    padding: 6px 12px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.btn.disabled {
+    background-color: lightgray;
+    border: 1px solid lightgray;
+    cursor: not-allowed;
+}
